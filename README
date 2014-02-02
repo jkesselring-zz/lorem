@@ -1,0 +1,20 @@
+This is a Lorem Ipsum Generator Tool. If there are any glaring issues I missed, or features to add - etc, please do not hesitate to submit a pull request. Thanks!
+
+
+Created By: Joseph Kesselring | twitter @jkesselring
+
+Purpose: To aid in providing Lorem Ipsum filler text programatically. 
+
+Thanks to: http://www.lipsum.com/ for their awesome web based lorem ipsum generation service. 
+
+Use: see index.php for a sample page.
+
+Essentially: Require generator.php, feed it a format(html, blank or text for text) and a length. Length is number of 'paragraphs' you wish to pull into the page. 
+
+Planned: 
+	Packaging for modularity. 
+	PHPUnit Testing
+	Proper Method Chaining where appropriate.
+	Additional output formats. 
+	Additional ipsum sources, for varied output.
+	DRYing things up as needed. 
